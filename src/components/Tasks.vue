@@ -19,7 +19,7 @@
       </div>
 
     </div>
-    <h3 v-else>Нет задачь</h3>
+    <h3 v-else>Нет задач</h3>
   </div>
 </template>
 
