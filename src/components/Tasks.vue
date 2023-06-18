@@ -11,7 +11,7 @@
               <div class="card-action">{{task.description}}</div>
             </div>
             <div class="card-action">
-              <router-link tag="button" class="btn-small" :to="'/task/'+task.id">Отредактироваить</router-link>
+              <router-link tag="button" class="btn-small" :to="'/task/'+task.id">Отредактировать</router-link>
               <button class="btn-small red accent-4" @click="delTask(task)">Удалить</button>
             </div>
           </div>
